@@ -1,11 +1,11 @@
 .da-slider{
 	width: 100%;
-	min-width: 300px;
-	height: 450px;
+	min-width: 100px;
+	height: 380px;
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
-	background: #fbfbfb url(../img/carrossel/2.png) repeat 0% 0%;
+	background: #bebdbd url(../img/carrossel/header.webp) repeat 0% 0%;
 	-webkit-transition: background-position 1s ease-out 0.3s;
 	-moz-transition: background-position 1s ease-out 0.3s;
 	-o-transition: background-position 1s ease-out 0.3s;

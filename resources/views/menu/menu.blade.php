@@ -1,43 +1,39 @@
-  <div class="row">
-          <div class="span4">
-            <div class="logo">
-              <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
-              <h1>Conforto e qualidade</h1>
+<div id="wrapper">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="span4">
+                    <div class="logo">
+                        <a href="{{ route('home.index') }}"><img src="img/logovillarica.webp" alt="villa rica" class="logo" style="height: 50px" /></a>
+                    </div>
+                </div>
+                <div class="span8">
+                    <div class="navbar navbar-static-top">
+                        <div class="navigation">
+                            <nav>
+                                <ul class="nav topnav">
+                                    <li class="dropdown">
+                                        <a href="{{ route('home.index') }}">Home</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="{{ route('sobre.index') }}">Sobre</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="{{ route('quarto.index') }}">Dormitórios</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="{{route('cafe.index')}}">Café da manhã</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('contato.index')}}">Contato</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- end navigation -->
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="span8">
-            <div class="navbar navbar-static-top">
-              <div class="navigation">
-                <nav>
-                  <ul class="nav topnav">
-                    <li class="dropdown active">
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Sobre</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Dormitorios<i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="portfolio-2cols.html">Quarto 1</a></li>
-                        <li><a href="portfolio-3cols.html">Quarto 2</a></li>
-                        <li><a href="portfolio-4cols.html">Quarto 3</a></li>
-                        <li><a href="portfolio-detail.html">Quarto 4</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Café da manhã <i class="icon-angle-down"></i></a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Atrativos</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contato</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <!-- end navigation -->
-            </div>
-          </div>
         </div>
+    </header>
+</div>

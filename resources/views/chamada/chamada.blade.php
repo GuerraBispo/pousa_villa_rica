@@ -7,7 +7,7 @@
                 <h3>Tenha uma das melhores estadias da <span class="highlight"><strong>chapada das mesas</strong></span> nos visite</h3>
               </div>
               <div class="cta floatright">
-                <a class="btn btn-large btn-theme btn-rounded" href="#">Reservar</a>
+                <a class="btn btn-large btn-theme btn-rounded" href="https://wa.me/5511961769569" target="_blank" >Reservar</a>
               </div>
             </div>
           </div>
